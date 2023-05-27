@@ -75,4 +75,3 @@ def put_city(city_id):
 
     storage.save()
     return make_response(jsonify(obj.to_dict()), 200)
-
